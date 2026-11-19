@@ -1,7 +1,5 @@
 # MCP Travel Weather Server - LAB03
 
-## Dokumentasjon
-
 **[Presentasjon](./doc/ws-pres.md)** - Marp presentation markdown
 
 ## Oversikt
