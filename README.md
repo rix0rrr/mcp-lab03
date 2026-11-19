@@ -2,33 +2,6 @@
 
 ## Dokumentasjon
 
-**[Presentasjon](./doc/ws-pres.md)** - Marp presentation markdown
-
-**MCP Travel Weather Server** er en basis-implementasjon for MCP workshop LAB03. Dette er en **læringsorientert versjon** som demonstrerer Model Context Protocol (MCP) grunnleggende konsepter med fokus på værdata.
-
-**Arkitektur**: Systemet består av tre hovedkomponenter:
-- **Web Service**: Frontend brukergrensesnitt
-- **AI Agent**: OpenAI-basert agent som orkestrerer forespørsler
-- **MCP Server**: HTTP API med værfunksjonalitet
-
-## ✅ MCP 2025-11-25 Kompatibel Implementasjon
-
-Denne workshopen implementerer **JSON-RPC 2.0 over HTTP** i henhold til den offisielle MCP spesifikasjonen (2025-11-25).
-
-**Offisielle MCP 2025-11-25 Transporter:**
-1. **stdio** - JSON-RPC 2.0 over standard input/output
-2. **Streamable HTTP** - JSON-RPC 2.0 over HTTP POST med valgfri Server-Sent Events (SSE)
-
-**Vår Implementasjon:**
-- ✅ JSON-RPC 2.0 protokoll
-- ✅ POST /message endpoint for alle operasjoner
-- ✅ tools/list metode for verktøyoppdagelse
-- ✅ tools/call metode for verktøykjøring
-- ✅ Standard JSON-RPC feilkoder
-- ✅ MCP-compliant tool result format (content, structuredContent, isError)
-- ✅ MCP tools manifest struktur
-
-**Hvorfor Denne Tilnærmingen?**
 - ✅ Spec-kompatibel og produksjonsklar
 - ✅ Lærer den faktiske MCP-protokollen
 - ✅ Enkelt å teste med curl (bare JSON)
