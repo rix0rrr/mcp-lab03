@@ -4,8 +4,6 @@
 
 **[Presentasjon](./doc/ws-pres.md)** - Marp presentation markdown
 
-## Oversikt
-
 **MCP Travel Weather Server** er en basis-implementasjon for MCP workshop LAB03. Dette er en **læringsorientert versjon** som demonstrerer Model Context Protocol (MCP) grunnleggende konsepter med fokus på værdata.
 
 **Arkitektur**: Systemet består av tre hovedkomponenter:
